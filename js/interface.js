@@ -151,6 +151,31 @@
     });
   }
 
+  /* ondaconceptual carousel */
+  if ($(".team-carousel").length) {
+    $(".team-carousel").owlCarousel({
+      margin: 10,
+      loop: true,
+      nav: true,
+      smartSpeed: 600,
+      dots: false,
+      items: 3,
+      autoWidth: false,
+      // responsive: {
+      //   0: {
+      //     items: 1,
+      //   },
+      //   992: {
+      //     items: 2,
+      //   },
+      // },
+      navText: [
+        '<div class="arrow"><div class="arrow-top"></div><div class="arrow-bottom"></div></div>',
+        '<div class="arrow"><div class="arrow-top"></div><div class="arrow-bottom"></div></div>',
+      ],
+    });
+  }
+
   /* Experience carousel */
   if ($(".experience-carousel").length) {
     $(".experience-carousel").owlCarousel({

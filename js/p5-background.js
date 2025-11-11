@@ -6,8 +6,8 @@
     bgColor: [0, 0, 0, 1],    // only used if bgMode === 'solid'
     boidHue: 210,             // blue
     boidSat: 85,
-    boidBright: 80,
-    boidAlpha: 0.95,
+    boidBright: 100,
+    boidAlpha: 0.65,
     showTrails: false,
     trailAlpha: 0.04,
 

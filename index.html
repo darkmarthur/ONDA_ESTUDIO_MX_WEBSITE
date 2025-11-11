@@ -38,6 +38,8 @@
 <body class="fixed-footer">
   <!-- Loader -->
   <div class="loader">
+    <canvas id="background-canvas" style="position: fixed; top:0; left:0; width:100%; height:100%; z-index: -1;"></canvas>
+
     <div class="spinner">
       <div class="double-bounce1"></div>
       <div class="double-bounce2"></div>
@@ -151,6 +153,45 @@
         </div>
       </div>
 
+      <!-- noticias -->
+      <!-- <section id="news" class="section pb-0">
+        <div class="container">
+          <h2 class="my-0" data-aos="fade-right">Noticias</h2>
+        </div>
+        <section class="section-sm section-right pb-0" data-aos="blur">
+          <div class="news-carousel owl-carousel" max>
+            <div class="item">
+              <a href="img/news/genelec.png" data-lightbox="news" data-title="Entrevista de Genelec">
+                <figure class="hover">
+                  <img alt="" class="img-responsive" style="width: 100%; height: 500px;" src="img/news/genelec.png" />
+                  <figcaption>
+                    <a href="https://www.genelec.com/-/reference/exploracion-sonora-desde-cuernavaca-un-estudio-abierto-al-detalle-con-genelec" target="_blank">
+                      <mark class="mt-2 category">Ver entrevista completa</mark>
+                    </a>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </section>
+      </section> -->
+
+      <section id="news" class="section pb-0">
+        <div class="container">
+          <h2 class="my-0" data-aos="data-aos="fade-up">Noticias</h2>
+        </div>
+        <section class="section-sm section-right pb-0" data-aos="fade-up">
+          <div class="item">
+              <a href="https://www.genelec.com/-/reference/exploracion-sonora-desde-cuernavaca-un-estudio-abierto-al-detalle-con-genelec" target="_blank">
+                <img alt="" class="img-responsive" style="width: auto; height: 500px;" src="img/news/genelec.png" />
+                <figcaption>
+                  <mark class="mt-2 category">Ver entrevista completa</mark>
+                </figcaption>
+              </a>
+          </div>
+        </section>
+      </section>
+
       <!-- ondavisual -->
       <section id="ondavisual" class="section pb-0">
         <section class="container">
@@ -171,7 +212,7 @@
             </div>
             <div class="col-md-6 offset-md-6 offset-lg-0 order-md-3 order-lg-3 col-lg-4 mt-5 pl-0 pl-md-30 mt-md-0" data-aos="fade-up">
               <p class="mb-0 pl-md-30px">
-                Producción de material filmográfico para proyectos artísticos, documentales, empresariales o marcas
+                Producción de material filmográfico para proyectos artísticos, documentales, empresariales o marcas. Nuestra área de producción de medios cuenta equipo de iluminación y cámaras "nivel cine" para la realización de cualquier idea creativa
               </p>
               <br />
               <ul class="mb-0 pl-md-30px my-0">
@@ -238,7 +279,7 @@
       <!-- ondavisual portfolio -->
       <!-- <section id="porftolio" class="section pb-0">
         <div class="container">
-          <h2 class="my-0" data-aos="fade-right">Latest works</h2>
+          <h2 class="my-0" data-aos="fade-right">Proyectos recientes</h2>
         </div>
         <section class="section-sm section-right pb-0" data-aos="blur">
           <div class="ondavisual-carousel owl-carousel">
@@ -362,7 +403,7 @@
       <!-- ondasonora portfolio -->
       <section id="porftolio" class="section pb-0">
         <div class="container">
-          <h2 class="my-0" data-aos="fade-right">Latest works</h2>
+          <h2 class="my-0" data-aos="fade-right">Proyectos recientes</h2>
         </div>
         <section class="section-sm section-right pb-0" data-aos="blur">
           <div class="ondasonora-carousel owl-carousel" max>
@@ -530,7 +571,7 @@
       <!-- ondaconceptual portfolio -->
       <section id="porftolio" class="section pb-0">
         <div class="container">
-          <h2 class="my-0" data-aos="fade-right">Latest works</h2>
+          <h2 class="my-0" data-aos="fade-right">Proyectos recientes</h2>
         </div>
         <section class="section-sm section-right pb-0" data-aos="blur">
           <div class="ondaconceptual-carousel owl-carousel" max>
@@ -661,12 +702,11 @@
       </section>
 
       <!-- Team -->
-      <section id="team" class="section">
+      <!-- <section id="team" class="section">
         <div class="container">
           <h2 class="my-0" data-aos="fade-right">Nuestro <span class="text-primary">Equipo</span></h2>
           <div class="team-carousel owl-carousel owl-theme mt-5">
 
-            <!-- Ehiram Beltrán -->
             <div class="item">
               <div class="card h-100 border-0 shadow-sm">
                 <img src="img/team_ehiram.png" alt="Ehiram Beltrán" class="img-fluid" style="height: 434px; width: 100%; object-fit: cover;">
@@ -680,7 +720,6 @@
               </div>
             </div>
 
-            <!-- Ángel Mañón -->
             <div class="item">
               <div class="card h-100 border-0 shadow-sm">
                 <img src="img/team_angel.png" alt="Ángel Mañón" class="img-fluid" style="height: 434px; width: 100%; object-fit: cover;">
@@ -693,7 +732,6 @@
               </div>
             </div>
 
-            <!-- Rodrigo -->
             <div class="item">
               <div class="card h-100 border-0 shadow-sm">
                 <img src="img/team_rodrigo.png" alt="Rodrigo" class="img-fluid" style="height: 434px; width: 100%; object-fit: cover;">
@@ -706,7 +744,6 @@
               </div>
             </div>
 
-            <!-- Natalia Domínguez -->
             <div class="item">
               <div class="card h-100 border-0 shadow-sm">
                 <img src="img/team_natalia.png" alt="Natalia Domínguez" class="img-fluid" style="height: 434px; width: 100%; object-fit: cover;">
@@ -719,7 +756,6 @@
               </div>
             </div>
 
-            <!-- Mario D. Quiroz -->
             <div class="item">
               <div class="card h-100 border-0 shadow-sm">
                 <img src="img/team_mario.png" alt="Mario D. Quiroz" class="img-fluid" style="height: 434px; width: 100%; object-fit: cover;">
@@ -734,8 +770,59 @@
 
           </div>
         </div>
-      </section>
+      </section> -->
 
+      <!-- Ventajas de ONDA ESTUDIO -->
+      <section id="ventajas" class="section bg-light">
+        <div class="container">
+          <h2 class="my-0 text-center" data-aos="fade-up">
+            Ventajas de <span class="text-primary">trabajar con nosotros</span>
+          </h2>
+          <div class="row mt-5 justify-content-center">
+
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="text-primary">Visión integral</h5>
+                  <p class="mb-0">Analizamos tu proyecto desde múltiples ángulos —creativo, técnico y comercial— para asegurar que cumpla tus objetivos estratégicos.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="text-primary">Tendencia & estrategia</h5>
+                  <p class="mb-0">Incorporamos las últimas tendencias en creatividad, tecnología y consumo para que tu proyecto se mantenga actual y relevante.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="text-primary">Autonomía del equipo</h5>
+                  <p class="mb-0">Nos autogestionamos con eficiencia. Tú defines el objetivo, nosotros lo convertimos en una experiencia ejecutable y funcional.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <h5 class="text-primary">Costo inteligente</h5>
+                  <p class="mb-0">Obtienes el valor de un departamento creativo completo sin incurrir en costos fijos. Solo pagas por el alcance de tu proyecto.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
 
       <!-- Contact -->
@@ -791,6 +878,8 @@
           </div>
         </div>
       </section>
+
+
     </div>
   </div>
 

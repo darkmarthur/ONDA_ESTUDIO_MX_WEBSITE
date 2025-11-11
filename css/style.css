@@ -120,7 +120,7 @@ h1,
   font-weight: normal;
   line-height: 1;
   color: #ffffff;
-  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.87);
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
   margin: 2rem 0;
 }
 
@@ -132,7 +132,7 @@ h2,
   line-height: 1.219;
   color: #ffffff;
   margin: 2rem 0;
-  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.87);
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
 }
 
 h3,
@@ -143,7 +143,7 @@ h3,
   line-height: 1.322;
   color: #ffffff;
   margin: 1.5rem 0;
-  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.87);
+  text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
 }
 
 h4,
@@ -1754,3 +1754,13 @@ footer {
 .lightbox .lb-image {
   border: 4px solid #00000000 !important;
 }
+/* body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><circle cx="10" cy="10" r="1" fill="rgba(0,0,0,0.03)" /></svg>');
+  z-index: -1;
+} */

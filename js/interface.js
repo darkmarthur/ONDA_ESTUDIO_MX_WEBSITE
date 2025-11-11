@@ -176,6 +176,23 @@
     });
   }
 
+  /* news carousel */
+  if ($(".news-carousel").length) {
+    $(".news-carousel").owlCarousel({
+      margin: 10,
+      loop: false,
+      nav: true,
+      smartSpeed: 600,
+      dots: false,
+      items: 1,
+      autoWidth: true,
+      navText: [
+        '<div class="arrow"><div class="arrow-top"></div><div class="arrow-bottom"></div></div>',
+        '<div class="arrow"><div class="arrow-top"></div><div class="arrow-bottom"></div></div>',
+      ],
+    });
+  }
+
   /* Experience carousel */
   if ($(".experience-carousel").length) {
     $(".experience-carousel").owlCarousel({
